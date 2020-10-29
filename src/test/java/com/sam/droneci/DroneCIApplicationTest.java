@@ -9,6 +9,5 @@ class DroneCIApplicationTest {
     @Test
     void main() {
         assertEquals("DroneCI Test", "DroneCI Test");
-        assertEquals("DroneCI Test", "DroneCI Test");
     }
 }
