@@ -27,4 +27,12 @@
 
     - 設定branch，似乎預設是處理 master 下的 push 事件，如果 project 不是在 master 下要自己設定
 
-5. 如果 push 後 drone 還是沒有反應，可以確認 DroneCI/Settings/Webhooks, 確認這個 post有成功
+5. 透過 {ngrok ip} 可以看到 drone 的 UI, 啟動要使用的 project 之後 push 會在 activity feed 看到活動
+
+6. 如果 push 後 drone 還是沒有反應，可以確認 DroneCI/Settings/Webhooks, 確認這個 post有成功
+
+
+## Ref
+- [從零開始學 DevOps — 那就選擇最簡單的 Drone CI 開始吧！](https://medium.com/starbugs/%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E5%AD%B8-devops-%E9%82%A3%E5%B0%B1%E9%81%B8%E6%93%87%E6%9C%80%E7%B0%A1%E5%96%AE%E7%9A%84-drone-ci-%E9%96%8B%E5%A7%8B%E5%90%A7-931126671139)
+
+- [Drone CI/CD 配合 Github 使用 Rsync 進行 Deploy](https://cola.workxplay.net/drone-ci-cd-and-github-rsync-deploy/)
