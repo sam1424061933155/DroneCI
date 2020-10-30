@@ -9,7 +9,7 @@
 1. 後續docker-compose 設定 DRONE_SERVER_HOST 必須使用public ip，可以透過 ngrok 讓 Port 開放 IP 讓外界存取
 
     - 開放 port 的方法  
-    ngrok http 8081，就會把剛剛架設的 drone 伺服器 localhost 的 8081 端口綁定到特定的 ngrok 網址
+    透過 ngrok http 8081 指令，就會把剛剛架設的 drone 伺服器 localhost 的 8081 端口綁定到特定的 ngrok 網址
 
 2. 透過 github settings/developer settings/OAuth application 綁定droneCI
 
